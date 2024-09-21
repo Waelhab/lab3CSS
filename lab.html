@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .image-preview{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .img{
+            border-top: 30px rgb(116, 116, 231) solid;
+            border-right: 30px rgb(220, 135, 135) solid;
+            border-bottom: 30px rgb(94, 144, 94) solid;
+            border-left: 30px rgb(204, 212, 138) solid;
+        }
+    </style>
+</head>
+<body>
+    <div class="image-preview">
+        <img class="img" src='https://cpit405.gitlab.io/images/KAU_logo.png'>
+      </div>
+
+      <div id="header">
+        <span class="myclass1">Every</span>
+        <span class="myclass2">one can</span>
+        <span class="myclass3">success.</span>
+      </div>
+      <p> One machine can do the work of fifty ordinary men.
+        <span class="myclass4">No machine can do the work of one extraordinary man.</span>
+      </p>
+    
+      <style>
+         p > span { color: red; }
+         #header span { color: pink; }
+         span { color: green; }
+         #header *:last-child { color: orange; }
+         #header span:first-child:hover { color: blue; }
+      </style>
+
+
+
+<table border="1">
+    <th>
+        
+        <td>Color</td>
+        <td>Color when mouse hover</td>
+    </th>
+    <tr>
+        <td>span.myclass1</td>
+        <td>pink</td>
+        <td>blue</td>
+    </tr>
+    <tr>
+        <td>span.myclass2</td>
+       
+        <td>pink</td>
+        <td>pink</td>
+    </tr>
+    <tr>
+        <td>span.myclass1</td>
+        
+        <td>orange</td>
+        <td>orange</td>
+    </tr>
+
+    <tr>
+        <td>span.myclass4</td>
+        <td>red</td>
+        <td>red</td>
+    </tr>
+</table>
+</body>
+</html>
